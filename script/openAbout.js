@@ -6,10 +6,10 @@ let mooduleAbout = document.querySelector(`.moduleAbout`);
 
 btnAbout.addEventListener(`click`, ()=>{
   mooduleAbout.style.display = `block`;
-  document.querySelector(`body`).style.overflow = `hidden`;
+  document.querySelector(`html`).style.overflow = `hidden`;
 })
 
 btnAboutClose.addEventListener(`click`, ()=>{
   mooduleAbout.style.display = `none`;
-  document.querySelector(`body`).style.overflowY = `scroll`;
+  document.querySelector(`html`).style.overflowY = `scroll`;
 })

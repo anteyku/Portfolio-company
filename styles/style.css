@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-body {
+html {
   overflow-x: hidden;
 }
 header {
@@ -1438,6 +1438,9 @@ main .about .about__text .abouut__text__button:hover {
   margin-top: 2%;
 }
 @media screen and (max-width: 414px) {
+  body {
+    overflow-x: hidden;
+  }
   header {
     padding-bottom: 14%;
     height: initial;
@@ -1546,22 +1549,22 @@ main .about .about__text .abouut__text__button:hover {
   }
   .moduleAbout .moduleAbout__close {
     right: initial;
-    left: 57%;
-    top: 10%;
+    left: 89%;
+    top: 12%;
     width: 4.5%;
   }
   .moduleAbout .moduleAbout__top {
     display: block;
   }
   .moduleAbout .moduleAbout__top .moduleAbout__top__we {
-    width: 66%;
+    width: 100%;
     font-size: 3.25vw;
     line-height: 4vw;
   }
   .moduleAbout .moduleAbout__top .moduleAbout__top__about {
     margin-top: 4%;
     margin-bottom: 8%;
-    width: 66%;
+    width: 100%;
     font-size: 3.36vw;
     line-height: 4vw;
   }
@@ -1573,7 +1576,7 @@ main .about .about__text .abouut__text__button:hover {
     margin-top: 25%;
   }
   .moduleAbout .moduleAbout__bottom .moduleAbout__bottom__miniBlock {
-    width: 65.5%;
+    width: 100%;
     padding: 2%;
   }
   .moduleAbout .moduleAbout__bottom .moduleAbout__bottom__miniBlock:nth-child(4) {
@@ -1593,7 +1596,7 @@ main .about .about__text .abouut__text__button:hover {
     height: 0.6vw;
   }
   .moduleAbout .moduleAbout__skills {
-    width: 72.5%;
+    width: 100%;
     flex-wrap: wrap;
   }
   .moduleAbout .moduleAbout__skills .moduleAbout__bottom__title {
@@ -1613,7 +1616,7 @@ main .about .about__text .abouut__text__button:hover {
     font-size: 3.4vw;
   }
   .modulePortfolio {
-    width: 66.5%;
+    width: 100%;
   }
   .modulePortfolio .modulePortfolio__close {
     right: 6%;

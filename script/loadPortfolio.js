@@ -242,7 +242,7 @@ for(let elem of document.querySelectorAll(`.modulePortfolio__close`)){
       document.querySelector(`.skill`).removeChild(elem);
     }    
 
-    document.querySelector(`body`).style.overflowY = `scroll`;
+    document.querySelector(`html`).style.overflowY = `scroll`;
     
   })
 }
@@ -259,7 +259,7 @@ let blockSkill = document.querySelector(`.skill`);
 
 for(let elem of document.querySelectorAll(`.portfolio__project__block`)){
   elem.addEventListener(`click`, (event)=>{
-    document.querySelector(`body`).style.overflow = `hidden`;
+    document.querySelector(`html`).style.overflow = `hidden`;
     // Делаим видимым модульное окно
     modalPort.style.display = `block`;
     // Ставим всю инфу из нашего массива mesPortfolio
