@@ -42,7 +42,7 @@ let mesPortfolio = [
     img: `images/anime.png`,
     title: `Видео хостинг - Аниме`,
     data: 1,
-    github: `https://anteyku.github.io/anime-videos/`,
+    github: `https://github.com/anteyku/anime-videos`,
     link: `https://anteyku.github.io/anime-videos/`,
     description: `Сверстанный аниме форум, предназначенный для просмотра аниме. Также реализованный мелкие детали типа слайдера и воспроизведения видео клипов на главной странице на клиентском javascript. Дизайн придуман и создан нами, на момент написания данного проекта у нас стояла цель - реализовать дизайн сложного и масштабного форума. Адаптивен под все телефонные устройства и планшеты.`,
     slider: [
@@ -74,7 +74,7 @@ let mesPortfolio = [
     img: `images/shopkey.png`,
     title: `Магазин игровых ключей`,
     data: 2,
-    github: `https://anteyku.github.io/game-keys-store/`,
+    github: `https://github.com/anteyku/game-keys-store`,
     link: `https://anteyku.github.io/game-keys-store/`,
     description: `Сверстанный макет - Магазина лицензионных ключей. Дизайн создан нами. Реализован скрипт слайдера, а также рандом рулетки игор. Создан с целю практики в версте масштабных проектов и создания дизайна. Имеет 4 уникальных страницы. Адаптивен под все телефонные устройства и планшеты.`,
     slider: [
@@ -106,7 +106,7 @@ let mesPortfolio = [
     img: `images/christmasFOR.png`,
     title: `Новогодний сайт подарков`,
     data: 3,
-    github: `https://anteyku.github.io/Christmas-site/`,
+    github: `https://github.com/anteyku/Christmas-site`,
     link: `https://anteyku.github.io/Christmas-site/`,
     description: `Новогодний сайт подарков - идея в том что близкие покупают неизвестный для себя подарок родному человеку. Дизайн создан нами. Макет только сверстан. Адаптивен под все телефонные устройства и планшеты.`,
     slider: [
@@ -134,7 +134,7 @@ let mesPortfolio = [
     img: `images/csgoFive.png`,
     title: `Магазин CS-GO кейсов `,
     data: 4,
-    github: `https://anteyku.github.io/ase-store/`,
+    github: `https://github.com/anteyku/ase-store`,
     link: `https://anteyku.github.io/ase-store/`,
     description: `Чистая верстка магазина cs-go кейсов. Дизайн сделан нами. Макет сверстан за неделю. При его создании все картинки предметов в кейсах были взяты из открытого доступа в интернете. Сайт предназначался для открытия кейсов cs-go. Адаптивен под все телефонные устройства и планшеты.`,
     slider: [
@@ -162,7 +162,7 @@ let mesPortfolio = [
     img: `images/youtubeTwo.png`,
     title: `Сайт визитка для ютубера`,
     data: 5,
-    github: `https://anteyku.github.io/horror/`,
+    github: `https://github.com/anteyku/horror`,
     link: `https://anteyku.github.io/horror/`,
     description: `Сайт сверстан для рассказчика страшных историй Дмитрий Ray. Дизайн создан нами. Сам канал https://www.youtube.com/channel/UCYcygnLe4cCuo2Zx0jtkcyg. Адаптивен под все телефонные устройства и планшеты.`,
     slider: [
