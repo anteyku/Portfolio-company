@@ -1,227 +1,227 @@
 let mesPortfolio = [   
   {
-    img: `images/chat.png`,
+    img: `images/chat.webp`,
     title: `Анонимные чаты `,
     data: 0,
     github: `https://github.com/anteyku`,
     link: `https://still-basin-56620.herokuapp.com/auth`,
     description: `Проект анонимные чаты - сделан на технологии Socket Io. Это анонимные чаты которые не собирают каких либо данных кроме тех что идентифицируют ваш аккаунт. Каждому зарегистрированному пользователю доступно для создания 5 чатов, с возможностью удалить их. Также присутствует блок определяющий ТОП-5 чатов по количеству сообщений. Защита от меж сайтового скриптинга (XSS-уязвимостей). Препятствует обходу проверок ввода и DoS-атакам с помощью ошибки Uncaught TypeError в асинхронном коде, приводящей к сбою сервера. Препятствует внедрение в MongoDB вредоносного оператора. Например, злоумышленники могут отправить объект, содержащий оператор $ или включающий ., что способно изменить контекст операции с базой данных. Pixel Perfect резиновая верстка с адаптацией под мобильные устройства. `,
     slider: [
-      `images/chatAuth.png`,
-      `images/chatIndex.png`,
-      `images/chatChat.png`,
-      `images/chatAdmin.png`
+      `images/chatAuth.webp`,
+      `images/chatIndex.webp`,
+      `images/chatChat.webp`,
+      `images/chatAdmin.webp`
     ],
     skills: [
       {
-        image: `images/html.png`,
+        image: `images/html.webp`,
         title: `HTML5`
       },
       {
-        image: `images/css3.png`,
+        image: `images/css3.webp`,
         title: `CCS3`        
       },
       {
-        image: `images/javascript.png`,
+        image: `images/javascript.webp`,
         title: `JavaScript`        
       },
       {
-        image: `images/node.png`,
+        image: `images/node.webp`,
         title: `Node.js`        
       },
       {
-        image: `images/mongo.png`,
+        image: `images/mongo.webp`,
         title: `MongoDB`        
       },
       {
-        image: `images/less.png`,
+        image: `images/less.webp`,
         title: `Less`        
       }     
     ]        
   },    
   {
-    img: `images/diary.png`,
+    img: `images/diary.webp`,
     title: `Зашифрованный электронный дневник`,
     data: 1,
     github: `https://github.com/anteyku`,
     link: `https://rocky-retreat-09691.herokuapp.com/`,
     description: `Электронный дневник с авторизацией и регистрацией, шифрует все ваши записи в нем. Парсит самые актуальные новости с сайта https://www.ferra.ru/ и выводит на главную страничку, а также показывает прогноз погоды в Украине, городе Киев. Помимо этого дневник умеет распознавать количество дней в текущем месяце, а также дописывать оставшиеся количество. При создании дня вы можете выбрать одну из трех стилизаций отображаемых в дневника. Также можно удалить, редактировать, добавлять записи. Адаптивен под все телефонные устройства.`,
     slider: [
-      `images/diary.png`,
-      `images/dineryAuthh.png`,
-      `images/diaryReg.png`
+      `images/diary.webp`,
+      `images/dineryAuthh.webp`,
+      `images/diaryReg.webp`
     ],
     skills: [
       {
-        image: `images/html.png`,
+        image: `images/html.webp`,
         title: `HTML5`
       },
       {
-        image: `images/css3.png`,
+        image: `images/css3.webp`,
         title: `CCS3`        
       },
       {
-        image: `images/javascript.png`,
+        image: `images/javascript.webp`,
         title: `JavaScript`        
       },
       {
-        image: `images/node.png`,
+        image: `images/node.webp`,
         title: `Node.js`        
       },
       {
-        image: `images/mongo.png`,
+        image: `images/mongo.webp`,
         title: `MongoDB`        
       },
       {
-        image: `images/less.png`,
+        image: `images/less.webp`,
         title: `Less`        
       }      
     ]
   },
   {
-    img: `images/anime.png`,
+    img: `images/anime.webp`,
     title: `Видео хостинг - Аниме`,
     data: 2,
     github: `https://github.com/anteyku/anime-videos`,
     link: `https://anteyku.github.io/anime-videos/`,
     description: `Сверстанный аниме форум, предназначенный для просмотра аниме. Также реализованный мелкие детали типа слайдера и воспроизведения видео клипов на главной странице на клиентском javascript. Дизайн придуман и создан нами, на момент написания данного проекта у нас стояла цель - реализовать дизайн сложного и масштабного форума. Адаптивен под все телефонные устройства и планшеты.`,
     slider: [
-      `images/anime.png`,
-      `images/animeTWO.png`,
-      `images/animeTHRRE.png`,
-      `images/animeFOR.png`
+      `images/anime.webp`,
+      `images/animeTWO.webp`,
+      `images/animeTHRRE.webp`,
+      `images/animeFOR.webp`
     ],
     skills: [
       {
-        image: `images/html.png`,
+        image: `images/html.webp`,
         title: `HTML5`
       },
       {
-        image: `images/css3.png`,
+        image: `images/css3.webp`,
         title: `CCS3`        
       },
       {
-        image: `images/javascript.png`,
+        image: `images/javascript.webp`,
         title: `JavaScript`        
       },
       {
-        image: `images/less.png`,
+        image: `images/less.webp`,
         title: `Less`        
       }      
     ]        
   },
   {
-    img: `images/shopkey.png`,
+    img: `images/shopkey.webp`,
     title: `Магазин игровых ключей`,
     data: 3,
     github: `https://github.com/anteyku/game-keys-store`,
     link: `https://anteyku.github.io/game-keys-store/`,
     description: `Сверстанный макет - Магазина лицензионных ключей. Дизайн создан нами. Реализован скрипт слайдера, а также рандом рулетки игор. Создан с целю практики в версте масштабных проектов и создания дизайна. Имеет 4 уникальных страницы. Адаптивен под все телефонные устройства и планшеты.`,
     slider: [
-      `images/game.png`,
-      `images/gameTwo.png`,
-      `images/gameThree.png`,
-      `images/gameFor.png`
+      `images/game.webp`,
+      `images/gameTwo.webp`,
+      `images/gameThree.webp`,
+      `images/gameFor.webp`
     ],
     skills: [
       {
-        image: `images/html.png`,
+        image: `images/html.webp`,
         title: `HTML5`
       },
       {
-        image: `images/css3.png`,
+        image: `images/css3.webp`,
         title: `CCS3`        
       },
       {
-        image: `images/javascript.png`,
+        image: `images/javascript.webp`,
         title: `JavaScript`        
       },
       {
-        image: `images/less.png`,
+        image: `images/less.webp`,
         title: `Less`        
       }      
     ]        
   },
   {
-    img: `images/christmasFOR.png`,
+    img: `images/christmasFOR.webp`,
     title: `Новогодний сайт подарков`,
     data: 4,
     github: `https://github.com/anteyku/Christmas-site`,
     link: `https://anteyku.github.io/Christmas-site/`,
     description: `Новогодний сайт подарков - идея в том что близкие покупают неизвестный для себя подарок родному человеку. Дизайн создан нами. Макет только сверстан. Адаптивен под все телефонные устройства и планшеты.`,
     slider: [
-      `images/christmas.png`,
-      `images/christmasTwo.png`,
-      `images/christmasThree.png`,
-      `images/christmasFOR.png`
+      `images/christmas.webp`,
+      `images/christmasTwo.webp`,
+      `images/christmasThree.webp`,
+      `images/christmasFOR.webp`
     ],
     skills: [
       {
-        image: `images/html.png`,
+        image: `images/html.webp`,
         title: `HTML5`
       },
       {
-        image: `images/css3.png`,
+        image: `images/css3.webp`,
         title: `CCS3`        
       },
       {
-        image: `images/less.png`,
+        image: `images/less.webp`,
         title: `Less`        
       }      
     ]        
   },
   {
-    img: `images/csgoFive.png`,
+    img: `images/csgoFive.webp`,
     title: `Магазин CS-GO кейсов `,
     data: 5,
     github: `https://github.com/anteyku/ase-store`,
     link: `https://anteyku.github.io/ase-store/`,
     description: `Чистая верстка магазина cs-go кейсов. Дизайн сделан нами. Макет сверстан за неделю. При его создании все картинки предметов в кейсах были взяты из открытого доступа в интернете. Сайт предназначался для открытия кейсов cs-go. Адаптивен под все телефонные устройства и планшеты.`,
     slider: [
-      `images/csgoTwo.png`,
-      `images/csgoThree.png`,
-      `images/csgoFor.png`,
-      `images/csgoFive.png`
+      `images/csgoTwo.webp`,
+      `images/csgoThree.webp`,
+      `images/csgoFor.webp`,
+      `images/csgoFive.webp`
     ],
     skills: [
       {
-        image: `images/html.png`,
+        image: `images/html.webp`,
         title: `HTML5`
       },
       {
-        image: `images/css3.png`,
+        image: `images/css3.webp`,
         title: `CCS3`        
       },
       {
-        image: `images/less.png`,
+        image: `images/less.webp`,
         title: `Less`        
       }      
     ]        
   },
   {
-    img: `images/youtubeTwo.png`,
+    img: `images/youtubeTwo.webp`,
     title: `Сайт визитка для ютубера`,
     data: 6,
     github: `https://github.com/anteyku/horror`,
     link: `https://anteyku.github.io/horror/`,
     description: `Сайт сверстан для рассказчика страшных историй Дмитрий Ray. Дизайн создан нами. Сам канал https://www.youtube.com/channel/UCYcygnLe4cCuo2Zx0jtkcyg. Адаптивен под все телефонные устройства и планшеты.`,
     slider: [
-      `images/youtubeTwo.png`,
-      `images/youtubeThree.png`,
-      `images/youtubeFor.png`,
-      `images/youtubeFive.png`
+      `images/youtubeTwo.webp`,
+      `images/youtubeThree.webp`,
+      `images/youtubeFor.webp`,
+      `images/youtubeFive.webp`
     ],
     skills: [
       {
-        image: `images/html.png`,
+        image: `images/html.webp`,
         title: `HTML5`
       },
       {
-        image: `images/css3.png`,
+        image: `images/css3.webp`,
         title: `CCS3`        
       },
       {
-        image: `images/less.png`,
+        image: `images/less.webp`,
         title: `Less`        
       }      
     ]        
