@@ -270,7 +270,7 @@ function createElem(img, name, data, num, first){
 // Закрытия портфолио
 for(let elem of document.querySelectorAll(`.modulePortfolio__close`)){
   elem.addEventListener(`click`, (event)=>{
-    event.path[2].style.display = `none`;
+    event.composedPath()[2].style.display = `none`;
     
     // Удаления всех картинок в поле "СКРИНШОТЫ" в модульном оккне
     for(let elem of document.querySelectorAll(`.modulePortfolio__screen__slider__img`)){
